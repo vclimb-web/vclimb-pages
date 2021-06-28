@@ -2,13 +2,17 @@
 
 # Windows and OSX Specific System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 *.swp
 ehthumbs.db
 Thumbs.db
 Icon\?
 
 # Laravel, PHPStorm, VSCode
-/node_modules
+node_modules/
 /public/hot
 /public/storage
 /storage/*.key
